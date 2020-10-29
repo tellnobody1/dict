@@ -7,22 +7,8 @@
 
 \usepackage{multicol}
 
-\usepackage{fancyhdr} % Required for modifying headers and footers
-\fancyhead[L]{\textsf{\rightmark}} % Top left header
-\fancyhead[R]{\textsf{\leftmark}} % Top right header
-\renewcommand{\headrulewidth}{1.4pt} % Rule under the header
-\fancyfoot[C]{\textbf{\textsf{\thepage}}} % Bottom center footer
-\renewcommand{\footrulewidth}{1.4pt} % Rule under the footer
-\pagestyle{fancy} % Use the custom headers and footers throughout the document
-
 % ukranian support
 \usepackage[english,ukrainian]{babel}
-\usepackage{fontspec}
-\setmainfont{Manrope}[
-  Path = print/otf/ ,
-  UprightFont = *-Regular ,
-  BoldFont    = *-Bold ,
-]
 
 \newcommand{\entry}[2]{\markboth{#1}{#1}\textbf{#1} \ #2}
 
@@ -41,4 +27,4 @@
   \end{table}
 }
 
-\usepackage{hevea}
+\usepackage{specific}

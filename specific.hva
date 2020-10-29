@@ -7,20 +7,23 @@
 \renewcommand{\@meta}{
 \oldmeta
 \begin{rawhtml}
-  <meta charset="utf-8">
+  <!--<meta charset="utf-8">-->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 \end{rawhtml}}
 
 \newstyle{body}{font-family:Manrope}
-\newstyle{.container}{max-width:38rem;margin:auto}
-\newstyle{.title}{margin-top:1rem}
-\newstyle{.titlemain}{margin:0 0 1rem 0}
-\newstyle{.titlerest}{font-weight:normal}
-\newstyle{.title td}{padding:0!important}
-\newstyle{p}{text-align:justify}
-\newstyle{h2+ul}{padding-left:0}
-\newstyle{h2+ul>li}{list-style:none}
-\newstyle{h4}{margin:0}
-\newstyle{h3+h4,h3+p+h4}{display:inline-block}
-\newstyle{h3+h4+p,h3+p+h4+p}{display:inline-block;margin:0 0 0 1rem}
-\newstyle{h3+h4+p+h4,h3+p+h4+p+h4}{display:none}
+
+%\newstyle{.container}{max-width:38rem;margin:auto}
+%\newstyle{.title}{margin-top:1rem}
+%\newstyle{.titlemain}{margin:0 0 1rem 0}
+%\newstyle{.titlerest}{font-weight:normal}
+%\newstyle{.title td}{padding:0!important}
+%\newstyle{p}{text-align:justify}
+%\newstyle{h2+ul}{padding-left:0}
+%\newstyle{h2+ul>li}{list-style:none}
+%\newstyle{h4}{margin:0}
+%\newstyle{h3+h4,h3+p+h4}{display:inline-block}
+%\newstyle{h3+h4+p,h3+p+h4+p}{display:inline-block;margin:0 0 0 1rem}
+%\newstyle{h3+h4+p+h4,h3+p+h4+p+h4}{display:none}
+
+\usepackage[utf8]{inputenc}
