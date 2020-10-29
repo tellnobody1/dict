@@ -1,0 +1,8 @@
+#!/bin/bash
+
+mkdir print
+trash print/index.pdf
+xelatex --output-directory=print index.tex
+open print/index.pdf
+
+echo "done."

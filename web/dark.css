@@ -1,0 +1,12 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background: rgb(45, 45, 45);
+    color: rgb(231, 232, 235);
+  }
+  a {
+    color: rgb(55, 138, 211);
+  }
+  a:visited {
+    color: rgb(60, 164, 255);
+  }
+}

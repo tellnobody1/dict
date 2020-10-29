@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mkdir web
+trash web/index.html
+hevea -exec xxdate.exe -fix -v -O index.tex -o web/index.html
+trash index.html
+cp web/index.html index.html
+
+echo "done."

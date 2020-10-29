@@ -1,0 +1,44 @@
+\documentclass[a4paper,twoside]{article}
+\usepackage[top=3.5cm,bottom=3.5cm,left=3.7cm,right=4.7cm,columnsep=30pt]{geometry}
+\usepackage{microtype} % Improves spacing
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{4mm}
+
+\usepackage{multicol}
+
+\usepackage{fancyhdr} % Required for modifying headers and footers
+\fancyhead[L]{\textsf{\rightmark}} % Top left header
+\fancyhead[R]{\textsf{\leftmark}} % Top right header
+\renewcommand{\headrulewidth}{1.4pt} % Rule under the header
+\fancyfoot[C]{\textbf{\textsf{\thepage}}} % Bottom center footer
+\renewcommand{\footrulewidth}{1.4pt} % Rule under the footer
+\pagestyle{fancy} % Use the custom headers and footers throughout the document
+
+% ukranian support
+\usepackage[english,ukrainian]{babel}
+\usepackage{fontspec}
+\setmainfont{Manrope}[
+  Path = print/otf/ ,
+  UprightFont = *-Regular ,
+  BoldFont    = *-Bold ,
+]
+
+\newcommand{\entry}[2]{\markboth{#1}{#1}\textbf{#1} \ #2}
+
+\newcommand{\alphabet}{
+  \begin{table}[p]
+  \centering\begin{tabular}{ l l l l }
+    Aa & Bb & Cc & Dd \\
+    Ee & Ff & Gg & Hh \\
+    Ii & Jj & Kk & Ll \\
+    Mm & Nn & Oo & Pp \\
+    Qq & Rr & Ss & Tt \\
+    Uu & Vv & Ww & Xx \\
+    Yy & Zz
+  \end{tabular}
+  \caption{Англійський алфавіт}
+  \end{table}
+}
+
+\usepackage{hevea}
