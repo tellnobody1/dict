@@ -1,35 +1,19 @@
 \footerfalse
 
 \loadcssfile{web/dark.css}
-\loadcssfile{web/font.css}
 
 \let\oldmeta=\@meta
 \renewcommand{\@meta}{
 \oldmeta
 \begin{rawhtml}
-  <!--<meta charset="utf-8">-->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 \end{rawhtml}}
 
-\newstyle{body}{font-family:Manrope;max-width:36rem;margin:auto}
+\newstyle{body}{max-width:36rem;margin:auto}
 \newstyle{.titlerest}{display:none}
-\newstyle{.center > .center}{display:none}
-
-%\newstyle{.container}{max-width:38rem;margin:auto}
-%\newstyle{.title}{margin-top:1rem}
-%\newstyle{.titlemain}{margin:0 0 1rem 0}
-%\newstyle{.titlerest}{font-weight:normal}
-%\newstyle{.title td}{padding:0!important}
-%\newstyle{p}{text-align:justify}
-%\newstyle{h2+ul}{padding-left:0}
-%\newstyle{h2+ul>li}{list-style:none}
-%\newstyle{h4}{margin:0}
-%\newstyle{h3+h4,h3+p+h4}{display:inline-block}
-%\newstyle{h3+h4+p,h3+p+h4+p}{display:inline-block;margin:0 0 0 1rem}
-%\newstyle{h3+h4+p+h4,h3+p+h4+p+h4}{display:none}
+\newstyle{\#sec1}{display:none}
+\newstyle{\#sec1+table}{display:none}
 
 \usepackage[utf8]{inputenc}
 
-\newcommand{\multicols}[1]{\begin{divstyle}{multicols-#1}}
-\newcommand{\endmulticols}{\end{divstyle}}
-\newstyle{.multicols-2}{column-count:2}
+\newcommand{\endtwocolumn}{}
