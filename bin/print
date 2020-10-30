@@ -1,10 +1,10 @@
 #!/bin/bash
 
 mkdir print
-trash print/index.pdf
-xelatex --output-directory=print index.tex
+trash print/etou.pdf
+xelatex --output-directory=print etou.tex
 trash etou.pdf
-cp print/index.pdf etou.pdf
-#open print/index.pdf
+mv print/etou.pdf etou.pdf
+#open etou.pdf
 
 echo "done."

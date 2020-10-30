@@ -1,7 +1,7 @@
 \footerfalse
 
-\loadcssfile{dark.css}
-\loadcssfile{font.css}
+\loadcssfile{web/dark.css}
+\loadcssfile{web/font.css}
 
 \let\oldmeta=\@meta
 \renewcommand{\@meta}{

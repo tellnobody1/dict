@@ -1,9 +1,9 @@
 #!/bin/bash
 
 mkdir web
-trash web/index.html
-hevea -exec xxdate.exe -fix -v -O index.tex -o web/index.html
-trash index.html
-cp web/index.html index.html
+trash web/etou.html
+hevea -exec xxdate.exe -fix -v -O etou.tex -o web/etou.html
+trash etou.html
+mv web/etou.html index.html
 
 echo "done."

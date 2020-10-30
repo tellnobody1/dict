@@ -2,3 +2,10 @@
 
 [Версія для друку](etou.pdf)
 
+## Збірка
+
+```bash
+bin/print
+bin/web
+```
+
