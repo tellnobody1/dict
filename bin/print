@@ -3,6 +3,8 @@
 mkdir print
 trash print/index.pdf
 xelatex --output-directory=print index.tex
-open print/index.pdf
+trash etou.pdf
+cp print/index.pdf etou.pdf
+#open print/index.pdf
 
 echo "done."
