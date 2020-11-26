@@ -1,12 +1,10 @@
-\usepackage{fontspec}
-\setmainfont{Times}
-
-\usepackage{fancyhdr} % Required for modifying headers and footers
-\fancyhead[L]{\textsf{\rightmark}} % Top left header
-\fancyhead[R]{\textsf{\leftmark}} % Top right header
+% header and footer
+\usepackage{fancyhdr}                % Required for modifying headers and footers
+\fancyhead[L]{\rightmark}            % Top left header
+\fancyhead[R]{\leftmark}             % Top right header
 \renewcommand{\headrulewidth}{1.4pt} % Rule under the header
-\fancyfoot[C]{\textbf{\textsf{\thepage}}} % Bottom center footer
+\fancyfoot[C]{\thepage}              % Bottom center footer
 \renewcommand{\footrulewidth}{1.4pt} % Rule under the footer
-\pagestyle{fancy} % Use the custom headers and footers throughout the document
+\pagestyle{fancy}                    % Use the custom headers and footers throughout the document
 
 \usepackage{hevea}

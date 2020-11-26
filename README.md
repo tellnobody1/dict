@@ -14,7 +14,7 @@ bin/web
 ### macOS
 
 ```bash
-brew cask install mactex hevea
+brew cask install mactex hevea font-libertinus
 ```
 
 ### Ubuntu

@@ -5,8 +5,14 @@
 \setlength{\parindent}{0cm}
 \setlength{\parskip}{4mm}
 
-% ukranian support
+% fonts
 \usepackage[english,ukrainian]{babel}
+\usepackage{fontspec}
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+\usepackage{unicode-math}
+\setmathfont{Libertinus Math}
 
 \newcommand{\entry}[2]{\markboth{#1}{#1}\textbf{#1} \ #2.}
 
