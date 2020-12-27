@@ -17,3 +17,5 @@
 \usepackage[utf8]{inputenc}
 
 \newcommand{\endtwocolumn}{}
+
+\newcommand{\extramarks}[2]{}
