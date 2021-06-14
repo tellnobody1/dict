@@ -4,27 +4,21 @@
 
 ## Збірка
 
-```bash
+```sh
 bin/print
-bin/web
 ```
 
 ## Підготування для роботи
 
 ### macOS
 
-```bash
-brew cask install mactex hevea font-libertinus
+```sh
+brew cask install mactex font-libertinus
 ```
 
 ### Ubuntu
 
-```bash
-sudo apt-get install texlive-full hevea
+```sh
+sudo apt-get install texlive-full
 ```
 
-### Оновлення hevea.sty
-
-```bash
-wget http://hevea.inria.fr/distri/hevea.sty
-```

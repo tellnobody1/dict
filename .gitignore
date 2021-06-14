@@ -2,8 +2,6 @@
 /print/*.aux
 /print/*.log
 /print/*.out
-/web/*.haux
-/web/*.htoc
 /tmp/
 *.swp
 
