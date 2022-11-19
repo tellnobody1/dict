@@ -1,0 +1,10 @@
+#!/bin/bash
+
+mkdir print
+trash print/etou.pdf
+lualatex --output-directory=print etou.tex
+trash etou.pdf
+mv print/etou.pdf etou.pdf
+open etou.pdf
+
+echo "done."
